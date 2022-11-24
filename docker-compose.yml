@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  php:
+    build: .
+    image: pest-php-process-isolation-issue
+    volumes:
+      - .:/home/dev

@@ -1,0 +1,22 @@
+{
+    "name": "gerben/pest-php-process-isolation-issue",
+    "autoload": {
+        "psr-4": {
+            "Gerben\\PestPhpProcessIsolationIssue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gerben-T",
+            "email": "gerben.tesselaar@tracebuzz.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
