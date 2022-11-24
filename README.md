@@ -9,7 +9,6 @@ and notice that the test fails.
 When running PHP Pest with the option `--process-isolation` (see `startup.sh`) it crashes with the following error
 
 ```shell
-string(84) "/home/dev/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code"
 
    FAIL  Tests\ExampleTest
   â¨¯ example
@@ -45,7 +44,7 @@ Parse error: syntax error, unexpected 'd' (T_STRING) in Standard input code on l
 Parse error: syntax error, unexpected 'd' (T_STRING) in Standard input code on line 215
 ", "")
 
-  4   vendor/phpunit/phpunit/src/Framework/TestCase.php:904
+  4   vendor/phpunit/phpunit/src/Framework/TestCase.php:902
       PHPUnit\Util\PHP\AbstractPhpProcess::runTestJob("<?php
 use PHPUnit\Framework\TestCase;
 use SebastianBergmann\CodeCoverage\CodeCoverage;
